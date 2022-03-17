@@ -35,6 +35,7 @@ The graphical part of the game engine has been provided for you. Your group must
 ## Game Engine: Flow of Program
 
 ![](./img/figure1.png)
+
 **Figure 1: Tic-Tac-Toe Game Engine Flow of Control**
 
 ## Main Game Engine Loop (Missing Piece: 1) 
@@ -67,6 +68,7 @@ The player’s turn is broken up into the following two separate pieces:
 The first part of the turn involves letting the user select a location for their move. Obviously, we must check to ensure that the position is not already taken and EITHER display an error message OR ignore the entry. For inputting the desired position, our implementation of Tic-Tac-Toe will map the number keypad on the right side of the keyboard as the input system for selecting a Tic-Tac-Toe position. This choice has been made because the number keypad is available on all standard PC keyboards and because the numbers on the pad (1-9) are oriented in a fashion similar to the Tic-Tac-Toe board. Note that this is an input mapping only. In the next section (computer’s turn), the actual mapping of the board to the board’s position data array is provided. This information will be necessary to actually perform and code the mapping of the number pad to the position array. You must provide the proper conversion from the number keypad entry mapping to the board position mapping. 
 
 ![](./img/figure2.png)
+
 **Figure 2: Number keypad mapped to Tic-Tac-Toe board**
 
 The second part of the player’s turn sequence involves checking the state of the board 
