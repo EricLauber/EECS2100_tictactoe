@@ -4,7 +4,7 @@ The Univeristy of Toledo's [College of Engineering](https://www.utoledo.edu/engi
 
 The third project of the semester included a Tic-Tac-Toe assignment. I worked on this with [Wes Vollmar](https://github.com/juss-wes).
 
-The code in this repo is an exact copy of what we turned in for the assignment. There's (copyrighted?) includess file, libraries the professor provided, as well as the source code. I don't remember enough about 8086 assembly at this time to know what's typically included with the masm tools and what I can exclude from this source.
+The code in this repo is an exact copy of what we turned in for the assignment. There's (copyrighted?) includes files, libraries the professor provided, as well as the source code. I don't remember enough about 8086 assembly at this time to know what's typically included with the masm tools and what I can exclude from this source.
 
 ## Project Goals
 
