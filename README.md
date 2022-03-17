@@ -174,8 +174,8 @@ Note that this mapping initially does not seem to make sense. However, if you ma
 the indexes directly into a 16-bit array, you will see something unique about this 
 mapping as shown below. 
  
-Index Array: `00000008 76543210`
-If we move this array into a register like AX we get: 
+Index Array: `00000008 76543210`  
+If we move this array into a register like AX we get:  
 AX: `00000008 76543210`
 ```
  0 | 1 | 2 
@@ -185,7 +185,7 @@ AX: `00000008 76543210`
  6 | 5 | 4 
 ```
 Note that 0 thru 7 are located in AL. Now to rotate the board 90 degrees, we can 
-simply use `ROR AL, 2`. 
+simply use `ROR AL, 2`.  
 AX: `00000008 10765432`
 ```
  2 | 3 | 4 
