@@ -23,7 +23,7 @@ I distinctly remember commenting out a portion of code in the "unbeatable" algor
 
 # Original Project Assignment Information
 
-You are going to write a Tic-TacToe video game in assembly language. Your group will write the required pieces of 
+You are going to write a Tic-Tac-Toe video game in assembly language. Your group will write the required pieces of 
 code in assembly language for the 3 missing parts of the game. 
 
 ## Tic-Tac-Toe Game Engine 
@@ -174,9 +174,9 @@ Note that this mapping initially does not seem to make sense. However, if you ma
 the indexes directly into a 16-bit array, you will see something unique about this 
 mapping as shown below. 
  
-Index Array: 00000008 76543210 
+Index Array: `00000008 76543210`
 If we move this array into a register like AX we get: 
-AX: 00000008 76543210 
+AX: `00000008 76543210`
 ```
  0 | 1 | 2 
 ---+---+--- 
@@ -185,8 +185,8 @@ AX: 00000008 76543210
  6 | 5 | 4 
 ```
 Note that 0 thru 7 are located in AL. Now to rotate the board 90 degrees, we can 
-simply use ROR AL, 2. 
-AX: 00000008 10765432 
+simply use `ROR AL, 2`. 
+AX: `00000008 10765432`
 ```
  2 | 3 | 4 
 ---+---+--- 
@@ -195,4 +195,4 @@ AX: 00000008 10765432
  0 | 7 | 6
 ```
 
-This shows a ‘single’ example of an easy way to implement the 90 degree rotation and also provides you with information on how the board and its data array are laid out. This rotation technique can be used in a number of ways to implement the rotation concept for computer move checking by using different arrays and mapping techniques along with the real data array in the tttboard.lib. For further information on how the board itself is implemented and the tttboard.lib’s functions or variables please refer to the source code or the instructor.
+This shows a ‘single’ example of an easy way to implement the 90 degree rotation and also provides you with information on how the board and its data array are laid out. This rotation technique can be used in a number of ways to implement the rotation concept for computer move checking by using different arrays and mapping techniques along with the real data array in the `tttboard.lib`. For further information on how the board itself is implemented and the `tttboard.lib`’s functions or variables please refer to the source code or the instructor.
