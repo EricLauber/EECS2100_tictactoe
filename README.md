@@ -135,11 +135,11 @@ Pattern #1      Pattern #2       Pattern #3      Pattern #4     Pattern #5
 in the next move 
 ```
 Pattern #6      Pattern #7       Pattern #8      Pattern #9     Pattern #10 
- ? | X | X      ? | * | *       ? | * | *       X | ? | X       * | ? | * 
+ ? | X | X      ? | * | *        ? | * | *       X | ? | X      * | ? | * 
 ---+---+---    ---+---+---      ---+---+---     ---+---+---    ---+---+--- 
- * | * | *      X | * | *       * | X | *       * | * | *       * | X | * 
+ * | * | *      X | * | *        * | X | *       * | * | *      * | X | * 
 ---+---+---    ---+---+---      ---+---+---     ---+---+---    ---+---+--- 
- * | * | *      X | * | *       * | * | X       * | * | *       * | X | *
+ * | * | *      X | * | *        * | * | X       * | * | *      * | X | *
 ```
 
 3rd: Patterns to check to see if the computer needs to block the player from winning 
