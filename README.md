@@ -65,6 +65,7 @@ CoreLoop:
 The player’s turn is broken up into the following two separate pieces: 
 * Player selects an open position in an attempt to win 
 * Check to see if the player has won 
+
 The first part of the turn involves letting the user select a location for their move. Obviously, we must check to ensure that the position is not already taken and EITHER display an error message OR ignore the entry. For inputting the desired position, our implementation of Tic-Tac-Toe will map the number keypad on the right side of the keyboard as the input system for selecting a Tic-Tac-Toe position. This choice has been made because the number keypad is available on all standard PC keyboards and because the numbers on the pad (1-9) are oriented in a fashion similar to the Tic-Tac-Toe board. Note that this is an input mapping only. In the next section (computer’s turn), the actual mapping of the board to the board’s position data array is provided. This information will be necessary to actually perform and code the mapping of the number pad to the position array. You must provide the proper conversion from the number keypad entry mapping to the board position mapping. 
 
 ![](./img/figure2.png)
